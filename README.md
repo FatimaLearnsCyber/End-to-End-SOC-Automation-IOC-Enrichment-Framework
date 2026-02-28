@@ -4,6 +4,8 @@
 ## Project Overview
 *This project demonstrates the design and deployment of a fully automated Security Operations pipeline from endpoint event generation to alert enrichment, case creation, and analyst notification.*
 
+![Architecture Diagram](architecture-diagram.png)
+
 The objective was to build a working detection architecture where:
 * A Windows 11 endpoint generates telemetry
 * Wazuh ingests and analyzes security events
