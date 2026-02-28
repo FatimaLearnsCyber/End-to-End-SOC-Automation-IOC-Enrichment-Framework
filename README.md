@@ -1,6 +1,7 @@
 # End-to-End-SOC-Automation-IOC-Enrichment-Framework
 *Windows 11 Endpoint | Wazuh | Shuffle SOAR | VirusTotal | TheHive*
 
+
 ## Project Overview
 *This project demonstrates the design and deployment of a fully automated Security Operations pipeline from endpoint event generation to alert enrichment, case creation, and analyst notification.*
 
@@ -16,6 +17,10 @@ The objective was to build a working detection architecture where:
 * Email notifications inform the SOC analyst
 
 This lab simulates how modern SOC environments integrate SIEM, SOAR, and Threat Intelligence platforms into a unified detection workflow.
+
+## Value & Impact of the Lab
+Modern SOC environments rely on automation to reduce analyst fatigue and accelerate incident response.  
+This framework demonstrates how SIEM, SOAR, and threat intelligence platforms can be integrated to transform raw endpoint telemetry into actionable investigation cases.
 
 ---
 
@@ -67,7 +72,7 @@ Login using extracted credentials.
 ---
 
 ## Phase 2 — TheHive Deployment
-The Hive required:
+TheHive required:
 * Elasticsearch (data indexing backend)
 * Cassandra (database backend)
 * TheHive service (case management interface)
